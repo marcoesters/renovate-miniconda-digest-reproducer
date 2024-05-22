@@ -20,15 +20,11 @@ Pretty-printed `transformTemplate`:
       and $v.sha256 = $lookup($, "Miniconda3-latest-{{ packageName }}").sha256
     }).$keys(), function($v) {
       {
-        "digest": $lookup($, $v).sha256, "version": $contains($v.$split("-")[2], /^[0-9]+$/) ? $v.$split("-")[1] & "-" & $v.$split("-")[2] : $v.$split("-")[1],
-        "changeLogUrl": "https://docs.anaconda.com/free/miniconda/miniconda-release-notes/#miniconda-" & ($contains( $v.$split("-")[2], /^[0-9]+$/) ? $v.$split("-")[1].$split("_")[1] & "-" & $v.$split("-")[2] : $v.$split("-")[1].$split("_")[1]).$replace(".", "-"),
-
-        "sourceUrl": "https://repo.anaconda.com/miniconda/" & $v, releaseTimestamp": $fromMillis($lookup($, $v).mtime * 1000, "[Y0001]-[M01]-[D01]T[H01]:[m01]", "-6")
+        "digest": $lookup($, $v).sha256,
+        "version": $contains($v.$split("-")[2], /^[0-9]+$/) ? $v.$split("-")[1] & "-" & $v.$split("-")[2] : $v.$split("-")[1]
       }
     }
-  )],
-  "sourceUrl": "https://repo.anaconda.com/miniconda/",
-  "homepage": "https://anaconda.com"
+  )]
 }
 ```
 
