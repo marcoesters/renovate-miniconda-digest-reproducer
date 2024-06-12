@@ -12,12 +12,11 @@
     },
     {
       "customType": "regex",
-      "depNameTemplate": "digestTest",
       "fileMatch": [
         "digests.yaml"
       ],
       "matchStrings": [
-        "# renovate:\\s*datasource=(?<datasource>[\\w\\.]+?)\\scurrentValue:\\s*(?<currentValue>[\\w]+?)\\scurrentDigest:\\s*(?<currentDigest>[\\w]+?)\\s"
+        "# renovate:\\s*datasource=(?<datasource>[\\w\\.]+?)\\s*depName=(?<depName>[\\w]+?)\\scurrentValue:\\s*(?<currentValue>[\\w]+?)\\scurrentDigest:\\s*(?<currentDigest>[\\w]+?)\\s"
       ]
     }
   ],
