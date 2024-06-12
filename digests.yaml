@@ -1,0 +1,15 @@
+# renovate: datasource=custom.digest
+currentValue: main
+currentDigest: abc123
+
+# renovate: datasource=custom.major_digest
+currentValue: 1
+currentDigest: abc123
+
+# renovate: datasource=custom.minor
+currentValue: 1.0.0
+currentDigest: abc123
+
+# renovate: datasource=custom.major
+currentValue: 2
+currentDigest: abc123
