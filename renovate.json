@@ -33,6 +33,7 @@
         "custom.major",
         "custom.minor"
       ]
+    }
   ],
   "customDatasources": {
     "miniconda_installer": {
