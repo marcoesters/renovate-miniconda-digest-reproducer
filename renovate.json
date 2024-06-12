@@ -12,6 +12,7 @@
     },
     {
       "customType": "regex",
+      "depNameTemplate": "digestTest",
       "fileMatch": [
         "digest.yaml"
       ],
