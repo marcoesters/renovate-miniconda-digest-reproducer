@@ -28,7 +28,7 @@
     {
       "matchDatasources": [
         "custom.digest",
-        "custom.major_digest",
+        "custom.null",
         "custom.major",
         "custom.minor"
       ]
@@ -44,8 +44,8 @@
     "digest": {
       "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/digest.json"
     },
-    "major_digest": {
-      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/major_digest.json"
+    "null": {
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/null.json"
     },
     "major": {
       "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/major.json"
