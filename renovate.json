@@ -24,6 +24,14 @@
     {
       "matchDatasources": ["custom.miniconda_installer"],
       "versioning": "regex:^(py\\d+_)?(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?(\\-(?<build>\\d+))?$"
+    },
+    {
+      "matchDatasources": [
+        "custom.digest",
+        "custom.major_digest",
+        "custom.major",
+        "custom.minor"
+      ]
     }
   ],
   "customDatasources": {
