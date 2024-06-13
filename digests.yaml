@@ -1,8 +1,8 @@
-# renovate: datasource=custom.digest depName=null
+# renovate: datasource=custom.null depName=null
 currentValue: 1.0.0
 currentDigest: abc123
 
-# renovate: datasource=custom.major_digest depName=digest
+# renovate: datasource=custom.digest depName=digest
 currentValue: 1
 currentDigest: abc123
 
