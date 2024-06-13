@@ -42,16 +42,16 @@
       ]
     },
     "digest": {
-      "defaultRegistryUrlTemplate": "https://github.com/marcoesters/renovate-miniconda-digest-reproducer/blob/main/digest.json"
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/digest.json"
     },
     "major_digest": {
-      "defaultRegistryUrlTemplate": "https://github.com/marcoesters/renovate-miniconda-digest-reproducer/blob/main/major_digest.json"
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/major_digest.json"
     },
     "major": {
-      "defaultRegistryUrlTemplate": "https://github.com/marcoesters/renovate-miniconda-digest-reproducer/blob/main/major.json"
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/major.json"
     },
     "minor": {
-      "defaultRegistryUrlTemplate": "https://github.com/marcoesters/renovate-miniconda-digest-reproducer/blob/main/minor.json"
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/marcoesters/renovate-miniconda-digest-reproducer/main/minor.json"
     }
   }
 }
