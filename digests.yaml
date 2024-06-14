@@ -1,4 +1,4 @@
-# renovate: datasource=custom.null depName=null
+# renovate: datasource=custom.warning depName=warning
 currentValue: 1.0.0
 currentDigest: abc123
 
