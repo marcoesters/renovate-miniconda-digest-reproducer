@@ -10,6 +10,10 @@ currentDigest: abc123
 currentValue: 1.0.0
 currentDigest: abc123
 
+# renovate: datasource=custom.minor depName=minor
+currentValue: 1.0.1
+currentDigest: abc123
+
 # renovate: datasource=custom.major depName=major
 currentValue: 2
 currentDigest: abc123
